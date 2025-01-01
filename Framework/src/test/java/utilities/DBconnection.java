@@ -6,7 +6,7 @@ import java.sql.*;
 public class DBconnection {
 
 
-    public ResultSet getResultSetForQuery(String query) throws SQLException, IOException, ClassNotFoundException {
+    public ResultSet getResultSetForOracleQuery(String query) throws SQLException, IOException, ClassNotFoundException {
 
         LoadProperties dbproperties = new LoadProperties();
 

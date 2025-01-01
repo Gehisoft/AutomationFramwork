@@ -23,7 +23,7 @@ public class TestBase {
 
 
         DBconnection connectionDB = new DBconnection();
-        ResultSet res =  connectionDB.getResultSetForQuery("SELECT * \n" +
+        ResultSet res =  connectionDB.getResultSetForOracleQuery("SELECT * \n" +
                 "FROM CI_APT_APPOITMENTS caa where rownum < 5");
 
         while (res.next()){
